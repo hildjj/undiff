@@ -25,12 +25,6 @@ jobs:
           sudo apt-get -y update
           sudo apt-get -y install --fix-missing xvfb
 
-
-      - name: Install XVFB for testing with VS Code
-        run: |
-          sudo apt-get -y update
-          sudo apt-get -y install --fix-missing xvfb
-
       - name: Find VS Code stable release version
         id: code-stable
         run: |
